@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+h1{
+    color: white;
+margin-bottom: 5px;
+}
+
+p{
+    color: white;
+}
+body{
+    background-color: rgb(253, 109, 133);
+    background-image: url("images/bg-intro-desktop.png");
+    opacity: 50;
+    height: 100vh;
+    margin: 10%;
+    /* width:50%; */
+}
+.try-container{
+    background-color: rgb(40, 4, 99);
+    color: white;
+    flex-direction:column;
+     /* width: 50%; */
+     margin-bottom: 10px;
+    box-shadow: 2px 5px #302f2fbb;
+    border-radius: 5px;
+    padding: 8px; 
+ }
+.reg-container{
+    background-color: white;
+    padding: 2em;
+    /* width: 50%; */
+    box-shadow: 2px 5px #302f2fbb;
+    border-radius: 5px;
+}
+.learn-container{
+    padding: 2em;
+    width: 50%;
+}
+.container{
+   display: flex; 
+   /* flex-direction:column; */
+justify-content: center;
+padding: 20px;
+}
+
+input{
+    width: auto;
+  padding: 12px 20px;
+  margin: 8px 0;
+  
+border-radius: 4px;
+
+
+}
+button{
+    margin-top: 4px;
+    /* width: 50%; */
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border-style: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 831px) {
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* padding: 5%; */
+
+  }
